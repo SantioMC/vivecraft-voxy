@@ -51,7 +51,7 @@ public abstract class RenderTargetMixin implements RenderTargetExtension {
 
     @Override
     public void vivecraft$setUseStencil(boolean useStencil) {
-        this.vivecraft$useStencil = useStencil;
+        this.vivecraft$useStencil = false;
     }
 
     @Override
